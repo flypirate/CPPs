@@ -115,19 +115,19 @@ void PhoneBook::displayDetails(std::string input)const{
 		number >> n;
 	}
 	std::cout << "FIRST NAME = ";
-	std::string firstname = truncate(_contacts[n - 1].getFirstName());
+	std::string firstname = _contacts[n - 1].getFirstName();
 	std::cout << firstname << std::endl;
 	std::cout << "LAST NAME = ";
-	std::string lastname = truncate(_contacts[n - 1].getLastName());
+	std::string lastname = _contacts[n - 1].getLastName();
 	std::cout << lastname << std::endl;
 	std::cout << "NICKNAME = ";
-	std::string nickname = truncate(_contacts[n - 1].getNickname());
+	std::string nickname = _contacts[n - 1].getNickname();
 	std::cout << nickname << std::endl;
 	std::cout << "PHONE NUMBER = ";
-	std::string phone = truncate(_contacts[n - 1].getPhoneNumber());
+	std::string phone = _contacts[n - 1].getPhoneNumber();
 	std::cout << phone << std::endl;
 	std::cout << "DARKEST SECRET = ";
-	std::string secret = truncate(_contacts[n - 1].getDarkestSecret());
+	std::string secret = _contacts[n - 1].getDarkestSecret();
 	std::cout << secret << std::endl;
 }
 
