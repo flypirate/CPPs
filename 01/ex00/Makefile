@@ -1,10 +1,10 @@
-NAME = megaphone
+NAME = zombie
 
 CC = c++
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC = main.cpp newZombie.cpp randomChump.cpp Zombie.cpp Zombie.hpp
+SRC = main.cpp newZombie.cpp randomChump.cpp Zombie.cpp
 
 OBJ_DIR = OBJ
 
