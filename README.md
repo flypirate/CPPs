@@ -15,7 +15,7 @@ using namespace <ns_name> and friend keywords are forbidden.
 Concepts applied in each exercise:
 
 00 - Namespaces, classes, member functions, stdio streams, initialization lists, static, const...<br>
-01 - Memory allocation, pointers to members, references and switch statements
-02 -
-03 -
+01 - Memory allocation, pointers to members, references and switch statements<br>
+02 -<br>
+03 -<br>
 04 -
